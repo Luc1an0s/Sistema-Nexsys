@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+header {
+    width: 100%;
+    background-image: url(../img/fundo\ lilas.jpg);
+    color: #fff;
+    padding: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+button {
+    background: #00a859;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-voltar {
+  background-color: #1976d2;
+  color: #fff;
+  border: none;
+  padding: 10px 32px 10px 10px; /* Mais espaço à direita */
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s, opacity 0.2s;
+  opacity: 1; /* Transparência */
+  margin-left: 20px; /* Distância do próximo elemento */
+}
+.btn-voltar:hover {
+  background-color: #1565c0;
+  opacity: 1;
+}
+
+.itens-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+@media (min-width: 1200px) {
+  .itens-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+  }
+  .item {
+    flex: 1 1 300px;
+    max-width: 400px;
+  }
+}
