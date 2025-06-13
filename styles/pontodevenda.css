@@ -36,13 +36,13 @@ button {
   background-color: #1976d2;
   color: #fff;
   border: none;
-  padding: 10px 32px 10px 10px; /* Mais espaço à direita */
+  padding: 10px 32px 10px 10px;
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
   transition: background 0.2s, opacity 0.2s;
-  opacity: 1; /* Transparência */
-  margin-left: 20px; /* Distância do próximo elemento */
+  opacity: 1;
+  margin-left: 20px;
 }
 .btn-voltar:hover {
   background-color: #1565c0;

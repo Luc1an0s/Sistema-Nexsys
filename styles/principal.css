@@ -57,27 +57,26 @@ main {
   background-color: #1976d2;
   color: #fff;
   border: none;
-  padding: 10px 32px 10px 10px; /* Mais espaço à direita */
+  padding: 10px 32px 10px 10px; 
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
   transition: background 0.2s, opacity 0.2s;
-  opacity: 1; /* Transparência */
-  margin-left: 200px; /* Distância do próximo elemento */
+  opacity: 1;
+  margin-left: 200px;
 }
 .btn-voltar:hover {
   background-color: #1565c0;
   opacity: 1;
 }
 
-/* Estilo padrão para telas pequenas */
+
 .itens-container {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-/* Para telas grandes (largura mínima de 1200px) */
 @media (min-width: 1200px) {
   .itens-container {
     flex-direction: row;
