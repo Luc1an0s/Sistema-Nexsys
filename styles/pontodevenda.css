@@ -5,9 +5,9 @@ body {
 }
 header {
     width: 100%;
-    background-image: url(../img/fundo\ lilas.jpg);
+    background-color: #050a30;
     color: #fff;
-    padding: 0;
+    padding: 0 0 0 24px;
     height: 60px;
     display: flex;
     align-items: center;
@@ -24,29 +24,12 @@ th, td {
 }
 
 button {
-    background: #00a859;
+    background: #1976d2;
     color: white;
     padding: 10px;
     margin: 5px;
     border: none;
     cursor: pointer;
-}
-
-.btn-voltar {
-  background-color: #1976d2;
-  color: #fff;
-  border: none;
-  padding: 10px 32px 10px 10px;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background 0.2s, opacity 0.2s;
-  opacity: 1;
-  margin-left: 20px;
-}
-.btn-voltar:hover {
-  background-color: #1565c0;
-  opacity: 1;
 }
 
 .itens-container {
